@@ -1,0 +1,22 @@
+Package: MMMs
+Title: Prognostic Models for Multiple Myeloma With Pathway Information Incorporated
+Version: 0.0.0.9000
+Authors@R: 
+    person("Shuo", "Wang", , "wangsures@foxmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: MMMs packages included several prognostic models for Multiple myeloma (MM). Unlike previous models that were constructed based on genes, These models in MMMs were constructed using pathways information. Results showed that these pathway-based models were competitive in prediction and exhibited favorable features in interpretation. MMMs transparently reported all model parameters in detail, rendering the future model comparison feasible.      
+
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Depends: 
+    R (>= 2.10)
+LazyData: true
+Imports: 
+    impute,
+    survival,
+    GSVA
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
